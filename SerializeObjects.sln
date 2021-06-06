@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializeObjects", "SerializeObjects\SerializeObjects.csproj", "{D7327659-035F-4386-B0E8-9BB42E64B6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudProduto", "CrudProduto\CrudProduto.csproj", "{3C3FE610-E9DB-4A07-908F-5C1A38D6172A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7327659-035F-4386-B0E8-9BB42E64B6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7327659-035F-4386-B0E8-9BB42E64B6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7327659-035F-4386-B0E8-9BB42E64B6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7327659-035F-4386-B0E8-9BB42E64B6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3FE610-E9DB-4A07-908F-5C1A38D6172A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3FE610-E9DB-4A07-908F-5C1A38D6172A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3FE610-E9DB-4A07-908F-5C1A38D6172A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3FE610-E9DB-4A07-908F-5C1A38D6172A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E9983C4-5C74-4949-B1C5-B474825F56BA}
+	EndGlobalSection
+EndGlobal

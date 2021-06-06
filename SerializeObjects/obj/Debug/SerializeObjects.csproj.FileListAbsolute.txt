@@ -1,0 +1,10 @@
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\bin\Debug\SerializeObjects.exe.config
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\bin\Debug\SerializeObjects.exe
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\bin\Debug\SerializeObjects.pdb
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\obj\Debug\SerializeObjects.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\obj\Debug\SerializeObjects.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\obj\Debug\SerializeObjects.csproj.CopyComplete
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\obj\Debug\SerializeObjects.exe
+C:\Users\Administrador\Desktop\SerializeObjects\SerializeObjects\obj\Debug\SerializeObjects.pdb

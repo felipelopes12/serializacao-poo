@@ -1,0 +1,16 @@
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\CrudProduto.exe.config
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\CrudProduto.exe
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\CrudProduto.pdb
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\SerializeObjects.exe
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\SerializeObjects.pdb
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\SerializeObjects.exe.config
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.Form1.resources
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.Properties.Resources.resources
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.csproj.CopyComplete
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.exe
+C:\Users\Administrador\Desktop\SerializeObjects\CrudProduto\obj\Debug\CrudProduto.pdb
