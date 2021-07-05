@@ -6,7 +6,7 @@ um banco de dados ou um arquivo. Sua finalidade principal é salvar o estado de 
 O processo inverso é chamado desserialização”</blockquote>
 
 
-## :rocket: Como a serialização funciona:
+## :rocket: 📕 Como a serialização funciona:
 
 Esta ilustração mostra o processo geral de serialização:
 
@@ -15,7 +15,7 @@ Esta ilustração mostra o processo geral de serialização:
 O objeto é serializado para um fluxo que transporta os dados. O fluxo também pode ter informações sobre o tipo do objeto, como sua versão, cultura e nome do assembly. 
 A partir desse fluxo, o objeto pode ser armazenado em um banco de dados, em um arquivo ou em uma memória.
 
-## Usos para serialização:
+## 📓 Usos para serialização:
 
 A serialização permite que o desenvolvedor salve o estado de um objeto e recrie-o conforme necessário, 
 fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serialização, um desenvolvedor pode executar ações como:
@@ -30,7 +30,7 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 * Manter informações específicas de segurança ou de usuário entre aplicativos.
 
 
-## Serialização JSON
+## 📘 Serialização JSON
 
 <p>O System.Text.Json namespace contém classes para serialização e desserialização de JavaScript Object Notation (JSON). JSON é um padrão aberto que normalmente é usado para compartilhar dados na Web.</p>
 
@@ -43,7 +43,7 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 * Implementar conversores personalizados.
 
 
-## Serialização XML e binária
+## 📙 Serialização XML e binária
 
 <p>O System.Runtime.Serialization namespace contém classes para serialização e desserialização binária e XML.</p>
 
@@ -51,7 +51,8 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 
 <p>A serialização XML serializa as propriedades e os campos públicos de um objeto, ou os parâmetros e os valores de retorno de métodos, em um fluxo XML que esteja de acordo com um documento XSD (linguagem de definição de esquema XML) específico. A serialização XML resulta em classes fortemente tipadas com propriedades e campos públicos que são convertidos em XML. System.Xml.Serializationcontém classes para serialização e desserialização de XML. Aplique atributos a classes e a membros de classe para controlar a maneira como o XmlSerializer serializa ou desserializa uma instância da classe.</p>
 
-## Tornando um objeto serializável
+
+## 📗 Tornando um objeto serializável
 
 <p>Para serialização binária ou XML, você precisa de:</p>
 
@@ -68,7 +69,7 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 
 <p>Se uma classe serializada contiver referências a objetos de outras classes que estão marcadas como SerializableAttribute, esses objetos também serão serializados.</p>
 
-## Serialização básica e personalizada
+## 📓 Serialização básica e personalizada
 
 <p>A serialização binária e XML pode ser executada de duas maneiras, básicas e personalizadas.</p>
 
@@ -81,6 +82,10 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 ## Serialização de designer
 
 <p>A serialização de designer é um formulário especial de serialização que envolve o tipo de persistência do objeto associado a ferramentas de desenvolvimento. A serialização de designer é o processo de conversão de um grafo do objeto em um arquivo de origem que pode, posteriormente, ser usado para recuperar o grafo do objeto. Um arquivo de origem pode conter código, marcação ou até mesmo informações de tabela do SQL.</p>
+
+
+
+
 
 
 
