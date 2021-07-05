@@ -1,5 +1,4 @@
-Serialização (C#) 
-</h3>
+## Serialização (C#) 
 
 <blockquote align="center">“A serialização é o processo de converter um objeto em um fluxo de bytes para armazenar o objeto ou transmiti-lo para a memória, 
 um banco de dados ou um arquivo. Sua finalidade principal é salvar o estado de um objeto para recriá-lo quando necessário. 
