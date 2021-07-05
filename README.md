@@ -79,9 +79,13 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 
 <p>Na serialização personalizada, você pode especificar exatamente quais objetos vão ser serializados e como isso será feito. A classe deve ser marcada como SerializableAttribute e implementar a interface ISerializable. Se você quiser que seu objeto seja desserializado de uma maneira personalizada também, use um construtor personalizado.</p>
 
-## Serialização de designer
+## 📒 Serialização de designer
 
 <p>A serialização de designer é um formulário especial de serialização que envolve o tipo de persistência do objeto associado a ferramentas de desenvolvimento. A serialização de designer é o processo de conversão de um grafo do objeto em um arquivo de origem que pode, posteriormente, ser usado para recuperar o grafo do objeto. Um arquivo de origem pode conter código, marcação ou até mesmo informações de tabela do SQL.</p>
+
+
+
+
 
 
 
