@@ -1,9 +1,9 @@
 ## Serialização (C#) 
 
-
-<blockquote align="center">“A serialização é o processo de converter um objeto em um fluxo de bytes para armazenar o objeto ou transmiti-lo para a memória, 
-um banco de dados ou um arquivo. Sua finalidade principal é salvar o estado de um objeto para recriá-lo quando necessário. O processo inverso é chamado desserialização.”</blockquote>
-
+<blockquote align="center">“A serialização é o processo de converter um objeto em um fluxo de bytes para armazenar o objeto ou transmiti-lo<br>
+ para a memória, um banco de dados ou um arquivo. Sua finalidade principal é salvar o estado de um objeto para recriá-lo quando necessário.<br>
+ O processo inverso é chamado desserialização.”</blockquote>
+ 
 ## :rocket: 📕 Como a serialização funciona:
 
 Esta ilustração mostra o processo geral de serialização:
