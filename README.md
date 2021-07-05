@@ -51,6 +51,41 @@ fornecendo armazenamento de objetos, bem como troca de dados. Por meio da serial
 
 <p>A serialização XML serializa as propriedades e os campos públicos de um objeto, ou os parâmetros e os valores de retorno de métodos, em um fluxo XML que esteja de acordo com um documento XSD (linguagem de definição de esquema XML) específico. A serialização XML resulta em classes fortemente tipadas com propriedades e campos públicos que são convertidos em XML. System.Xml.Serializationcontém classes para serialização e desserialização de XML. Aplique atributos a classes e a membros de classe para controlar a maneira como o XmlSerializer serializa ou desserializa uma instância da classe.</p>
 
+## Tornando um objeto serializável
+
+<p>Para serialização binária ou XML, você precisa de:</p>
+
+* O objeto a ser serializado
+
+* Um fluxo para conter o objeto serializado
+
+* Uma System.Runtime.Serialization.Formatter
+
+
+<p>Aplique o SerializableAttribute atributo a um tipo para indicar que as instâncias do tipo podem ser serializadas. Uma exceção será gerada se você tentar serializar, mas o tipo não terá o atributo SerializableAttribute.</p>
+
+<p>Para impedir que um campo seja serializado, aplique o NonSerializedAttribute atributo. Se um campo de um tipo serializável contiver um ponteiro, um identificador ou outra estrutura de dados que é específica de um determinado ambiente e o campo não puder ser reconstituído em um ambiente diferente, será necessário torná-lo não serializável.</p>
+
+<p>Se uma classe serializada contiver referências a objetos de outras classes que estão marcadas como SerializableAttribute, esses objetos também serão serializados.</p>
+
+## Serialização básica e personalizada
+
+<p>A serialização binária e XML pode ser executada de duas maneiras, básicas e personalizadas.</p>
+
+<p>A serialização básica usa o .NET para serializar automaticamente o objeto. O único requisito é que a classe tenha o SerializableAttribute atributo aplicado. O NonSerializedAttribute pode ser usado para impedir a serialização de campos específicos</p>
+
+<p>Quando você usa a serialização básica, a criação de versão de objetos pode criar problemas. Use a serialização personalizada quando problemas de criação de versão forem importantes. A serialização básica é a maneira mais fácil de executar a serialização, mas ela não fornece muito controle sobre o processo.</p>
+
+<p>Na serialização personalizada, você pode especificar exatamente quais objetos vão ser serializados e como isso será feito. A classe deve ser marcada como SerializableAttribute e implementar a interface ISerializable. Se você quiser que seu objeto seja desserializado de uma maneira personalizada também, use um construtor personalizado.</p>
+
+## Serialização de designer
+
+<p>A serialização de designer é um formulário especial de serialização que envolve o tipo de persistência do objeto associado a ferramentas de desenvolvimento. A serialização de designer é o processo de conversão de um grafo do objeto em um arquivo de origem que pode, posteriormente, ser usado para recuperar o grafo do objeto. Um arquivo de origem pode conter código, marcação ou até mesmo informações de tabela do SQL.</p>
+
+
+
+
+
 
 
 
